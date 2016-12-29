@@ -44,14 +44,14 @@ public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.Cu
                 .into(holder.popularImage);
 
         holder.nameTextView.setText(popular.getName());
-        holder.countOne.setText(popular.getCount());
+        holder.countOne.setText(String.valueOf(popular.getCount()));
         holder.loremOne.setText(popular.getType());
     }
 
 
     @Override
     public int getItemCount() {
-        return 0;
+        return (null != popularList ? popularList.size() : 0);
     }
 
 

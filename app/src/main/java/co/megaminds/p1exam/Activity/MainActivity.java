@@ -14,6 +14,8 @@ import java.util.Collections;
 import java.util.List;
 
 import co.megaminds.p1exam.Adapter.HorizontalAdapter;
+import co.megaminds.p1exam.HelperClasses.DividerItemDecoration;
+import co.megaminds.p1exam.HelperClasses.GridSpacingItemDecoration;
 import co.megaminds.p1exam.HelperClasses.NetworkCheckingClass;
 import co.megaminds.p1exam.Interface.ApiInterface;
 import co.megaminds.p1exam.Model.JsonData;
@@ -37,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recyclerView = (RecyclerView) findViewById(R.id.horizontal_recycler_view);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
+
         popularList = Collections.<Popular>emptyList();
         apiInterface = RetrofitApiClient.getClient().create(ApiInterface.class);
 
@@ -58,6 +61,10 @@ public class MainActivity extends AppCompatActivity {
                 JsonData jsonData = response.body();
 
                 popularList = jsonData.getPopular();
+
+                int spacingInPixels = getResources().getDimensionPixelSize(R.dimen.activity_horizontal_margin);
+                if(popularList.size()>0)
+                    recyclerView.addItemDecoration(new GridSpacingItemDecoration(popularList.size(), spacingInPixels, true, 0));
 
                 horizontalAdapter = new HorizontalAdapter(MainActivity.this, popularList);
                 recyclerView.setAdapter(horizontalAdapter);
