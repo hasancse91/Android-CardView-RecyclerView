@@ -1,10 +1,14 @@
 package co.megaminds.p1exam.Activity;
 
+import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.Collections;
 import java.util.List;
@@ -23,6 +27,7 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
+    HorizontalAdapter horizontalAdapter;
     List<Popular> popularList;
     private ApiInterface apiInterface;
 
@@ -32,9 +37,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recyclerView = (RecyclerView) findViewById(R.id.horizontal_recycler_view);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         popularList = Collections.<Popular>emptyList();
         apiInterface = RetrofitApiClient.getClient().create(ApiInterface.class);
-        
+
         if(NetworkCheckingClass.isNetworkAvailable(this))
             fetchData();
         else
@@ -43,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void fetchData() {
-
-
 
         Call<JsonData> call = apiInterface.apiCall();
         call.enqueue(new Callback<JsonData>() {
@@ -55,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
                 popularList = jsonData.getPopular();
 
-                loadRecyclerView();
+                horizontalAdapter = new HorizontalAdapter(MainActivity.this, popularList);
+                recyclerView.setAdapter(horizontalAdapter);
             }
 
             @Override
@@ -66,9 +71,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void loadRecyclerView() {
-        HorizontalAdapter horizontalAdapter = new HorizontalAdapter(getApplicationContext(), popularList);
-        recyclerView.setAdapter(horizontalAdapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-    }
 }

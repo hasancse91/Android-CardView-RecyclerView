@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitApiClient {
 
-        private static final String BASE_URL = "http://logic-poll-api-test.ggdev.xyz/";
+        private static final String BASE_URL = "http://192.168.0.101/";
 
         private static Retrofit retrofit = null;
  

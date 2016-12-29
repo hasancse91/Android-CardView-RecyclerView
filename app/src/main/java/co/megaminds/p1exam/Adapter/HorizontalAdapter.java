@@ -8,20 +8,18 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import co.megaminds.p1exam.Model.Popular;
 import co.megaminds.p1exam.R;
 
-/**
- * Created by hasan on 12/27/16.
- */
 
-public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.ViewHolder>{
+public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.CustomViewHolder>{
 
     private Context mContext;
     private List<Popular> popularList;
-    private View popularView;
 
     public HorizontalAdapter(Context context, List<Popular> populars) {
         popularList = populars;
@@ -30,33 +28,26 @@ public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.Vi
 
 
     @Override
-    public HorizontalAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
-        Context context = parent.getContext();
-        LayoutInflater inflater = LayoutInflater.from(context);
-
-        // Inflate the custom layout
-        popularView = inflater.inflate(R.layout.populer_single_item, parent, false);
-
-        // Return a new holder instance
-        ViewHolder viewHolder = new ViewHolder(popularView);
+    public CustomViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.populer_single_item, null);
+        CustomViewHolder viewHolder = new CustomViewHolder(view);
         return viewHolder;
     }
 
     @Override
-    public void onBindViewHolder(HorizontalAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(CustomViewHolder holder, int position) {
 
         Popular popular = popularList.get(position);
 
-        //image load using Picasso
+        Picasso.with(mContext)
+                .load(popular.getImage())
+                .into(holder.popularImage);
 
         holder.nameTextView.setText(popular.getName());
-
         holder.countOne.setText(popular.getCount());
-
         holder.loremOne.setText(popular.getType());
-
     }
+
 
     @Override
     public int getItemCount() {
@@ -64,20 +55,20 @@ public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.Vi
     }
 
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
+    class CustomViewHolder extends RecyclerView.ViewHolder {
         // Your holder should contain a member variable
         // for any view that will be set as you render a row
-        public ImageView popularImage;
-        public TextView nameTextView;
-        public TextView countOne;
-        public TextView loremOne;
-        public TextView countTwo;
-        public TextView loremTwo;
+        ImageView popularImage;
+        TextView nameTextView;
+        TextView countOne;
+        TextView loremOne;
+        TextView countTwo;
+        TextView loremTwo;
 
 
         // We also create a constructor that accepts the entire item row
         // and does the view lookups to find each subview
-        public ViewHolder(View itemView) {
+        public CustomViewHolder(View itemView) {
             // Stores the itemView in a public final member variable that can be used
             // to access the context from any ViewHolder instance.
             super(itemView);
