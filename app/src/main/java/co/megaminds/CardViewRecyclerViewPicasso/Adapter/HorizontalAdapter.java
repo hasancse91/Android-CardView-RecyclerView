@@ -1,4 +1,4 @@
-package co.megaminds.p1exam.Adapter;
+package co.megaminds.CardViewRecyclerViewPicasso.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -12,8 +12,8 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import co.megaminds.p1exam.Model.Popular;
-import co.megaminds.p1exam.R;
+import co.megaminds.CardViewRecyclerViewPicasso.Model.Popular;
+import co.megaminds.CardViewRecyclerViewPicasso.R;
 
 
 public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.CustomViewHolder>{

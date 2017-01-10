@@ -1,6 +1,6 @@
-package co.megaminds.p1exam.Interface;
+package co.megaminds.CardViewRecyclerViewPicasso.Interface;
 
-import co.megaminds.p1exam.Model.JsonData;
+import co.megaminds.CardViewRecyclerViewPicasso.Model.JsonData;
 import retrofit2.Call;
 import retrofit2.http.GET;
 

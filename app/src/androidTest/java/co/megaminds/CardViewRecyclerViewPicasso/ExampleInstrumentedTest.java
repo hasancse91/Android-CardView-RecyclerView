@@ -1,4 +1,4 @@
-package co.megaminds.p1exam;
+package co.megaminds.CardViewRecyclerViewPicasso;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

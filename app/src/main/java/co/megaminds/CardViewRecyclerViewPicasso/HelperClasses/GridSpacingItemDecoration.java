@@ -1,4 +1,4 @@
-package co.megaminds.p1exam.HelperClasses;
+package co.megaminds.CardViewRecyclerViewPicasso.HelperClasses;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;

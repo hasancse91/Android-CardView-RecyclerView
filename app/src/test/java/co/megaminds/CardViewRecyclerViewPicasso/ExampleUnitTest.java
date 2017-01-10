@@ -1,4 +1,4 @@
-package co.megaminds.p1exam;
+package co.megaminds.CardViewRecyclerViewPicasso;
 
 import org.junit.Test;
 

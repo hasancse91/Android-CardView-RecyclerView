@@ -1,6 +1,5 @@
-package co.megaminds.p1exam.Activity;
+package co.megaminds.CardViewRecyclerViewPicasso.Activity;
 
-import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,16 +13,16 @@ import android.widget.Toast;
 import java.util.Collections;
 import java.util.List;
 
-import co.megaminds.p1exam.Adapter.HorizontalAdapter;
-import co.megaminds.p1exam.Adapter.VerticalAdapter;
-import co.megaminds.p1exam.HelperClasses.GridSpacingItemDecoration;
-import co.megaminds.p1exam.HelperClasses.NetworkCheckingClass;
-import co.megaminds.p1exam.Interface.ApiInterface;
-import co.megaminds.p1exam.Model.Datum;
-import co.megaminds.p1exam.Model.JsonData;
-import co.megaminds.p1exam.Model.Popular;
-import co.megaminds.p1exam.R;
-import co.megaminds.p1exam.Retrofit.RetrofitApiClient;
+import co.megaminds.CardViewRecyclerViewPicasso.Adapter.HorizontalAdapter;
+import co.megaminds.CardViewRecyclerViewPicasso.Adapter.VerticalAdapter;
+import co.megaminds.CardViewRecyclerViewPicasso.HelperClasses.GridSpacingItemDecoration;
+import co.megaminds.CardViewRecyclerViewPicasso.HelperClasses.NetworkCheckingClass;
+import co.megaminds.CardViewRecyclerViewPicasso.Interface.ApiInterface;
+import co.megaminds.CardViewRecyclerViewPicasso.Model.Datum;
+import co.megaminds.CardViewRecyclerViewPicasso.Model.JsonData;
+import co.megaminds.CardViewRecyclerViewPicasso.Model.Popular;
+import co.megaminds.CardViewRecyclerViewPicasso.R;
+import co.megaminds.CardViewRecyclerViewPicasso.Retrofit.RetrofitApiClient;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

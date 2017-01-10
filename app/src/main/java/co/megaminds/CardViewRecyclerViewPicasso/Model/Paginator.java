@@ -1,5 +1,5 @@
 
-package co.megaminds.p1exam.Model;
+package co.megaminds.CardViewRecyclerViewPicasso.Model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,7 +1,7 @@
 
 //Copied from my GitHub repo: https://github.com/hasancse91/retrofit-implementation
 
-package co.megaminds.p1exam.Retrofit;
+package co.megaminds.CardViewRecyclerViewPicasso.Retrofit;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

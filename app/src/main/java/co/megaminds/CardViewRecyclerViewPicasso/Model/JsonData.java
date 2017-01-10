@@ -1,5 +1,5 @@
 
-package co.megaminds.p1exam.Model;
+package co.megaminds.CardViewRecyclerViewPicasso.Model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,8 +31,8 @@ public class JsonData implements Parcelable
         })
         public JsonData createFromParcel(Parcel in) {
             JsonData instance = new JsonData();
-            in.readList(instance.popular, (co.megaminds.p1exam.Model.Popular.class.getClassLoader()));
-            in.readList(instance.data, (co.megaminds.p1exam.Model.Datum.class.getClassLoader()));
+            in.readList(instance.popular, (co.megaminds.CardViewRecyclerViewPicasso.Model.Popular.class.getClassLoader()));
+            in.readList(instance.data, (co.megaminds.CardViewRecyclerViewPicasso.Model.Datum.class.getClassLoader()));
             instance.status = ((int) in.readValue((int.class.getClassLoader())));
             instance.paginator = ((Paginator) in.readValue((Paginator.class.getClassLoader())));
             return instance;

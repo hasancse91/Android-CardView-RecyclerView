@@ -1,4 +1,4 @@
-package co.megaminds.p1exam.HelperClasses;
+package co.megaminds.CardViewRecyclerViewPicasso.HelperClasses;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;

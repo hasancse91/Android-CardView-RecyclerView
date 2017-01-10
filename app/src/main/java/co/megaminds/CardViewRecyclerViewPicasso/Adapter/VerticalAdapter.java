@@ -1,4 +1,4 @@
-package co.megaminds.p1exam.Adapter;
+package co.megaminds.CardViewRecyclerViewPicasso.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -12,9 +12,9 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import co.megaminds.p1exam.HelperClasses.CircleTransform;
-import co.megaminds.p1exam.Model.Datum;
-import co.megaminds.p1exam.R;
+import co.megaminds.CardViewRecyclerViewPicasso.HelperClasses.CircleTransform;
+import co.megaminds.CardViewRecyclerViewPicasso.Model.Datum;
+import co.megaminds.CardViewRecyclerViewPicasso.R;
 
 
 public class VerticalAdapter extends RecyclerView.Adapter<VerticalAdapter.CustomViewHolder>{
