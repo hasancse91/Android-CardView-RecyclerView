@@ -1,9 +1,14 @@
 package co.megaminds.p1exam.Activity;
 
+import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import java.util.Collections;
@@ -31,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
     VerticalAdapter verticalAdapter;
     List<Popular> popularList;
     List<Datum> dataList;
+    ProgressBar progressBar;
+    RelativeLayout relativeLayout;
     private ApiInterface apiInterface;
 
     @Override
@@ -38,20 +45,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        relativeLayout = (RelativeLayout) findViewById(R.id.activity_main);
+
         recyclerView = (RecyclerView) findViewById(R.id.horizontal_recycler_view);
         recyclerViewVertical = (RecyclerView) findViewById(R.id.vertical_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
         recyclerViewVertical.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
 
+        progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
         popularList = Collections.<Popular>emptyList();
         dataList = Collections.<Datum>emptyList();
         apiInterface = RetrofitApiClient.getClient().create(ApiInterface.class);
 
-        if(NetworkCheckingClass.isNetworkAvailable(this))
+        if(NetworkCheckingClass.isNetworkAvailable(this)){
+            progressBar.setVisibility(View.VISIBLE);
             fetchData();
-        else
+        }
+        else{
+            progressBar.setVisibility(View.GONE);
             Toast.makeText(this, "No internet Connection", Toast.LENGTH_LONG).show();
+        }
+
 
     }
 
@@ -74,6 +89,11 @@ public class MainActivity extends AppCompatActivity {
 //                if(dataList.size()>0)
 //                    recyclerViewVertical.addItemDecoration();
 
+                progressBar.setVisibility(View.GONE);
+
+                relativeLayout.setBackgroundColor(Color.parseColor("#3481c1"));
+
+
                 horizontalAdapter = new HorizontalAdapter(MainActivity.this, popularList);
                 recyclerView.setAdapter(horizontalAdapter);
                 verticalAdapter = new VerticalAdapter(MainActivity.this, dataList);
@@ -82,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<JsonData> call, Throwable t) {
+                progressBar.setVisibility(View.GONE);
                 Toast.makeText(getApplicationContext(), t.toString(), Toast.LENGTH_LONG).show();
 
             }
