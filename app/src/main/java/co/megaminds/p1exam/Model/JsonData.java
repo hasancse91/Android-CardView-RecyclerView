@@ -21,6 +21,7 @@ public class JsonData implements Parcelable
     @Expose
     private int status;
     @SerializedName("paginator")
+    @Expose
     private Paginator paginator;
     public final static Parcelable.Creator<JsonData> CREATOR = new Creator<JsonData>() {
 
@@ -127,13 +128,4 @@ public class JsonData implements Parcelable
         return  0;
     }
 
-    @Override
-    public String toString() {
-        return "JsonData{" +
-                "popular=" + popular +
-                ", data=" + data +
-                ", status=" + status +
-                ", paginator=" + paginator +
-                '}';
-    }
 }

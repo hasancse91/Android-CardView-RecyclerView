@@ -149,14 +149,4 @@ public class Popular implements Parcelable
         return  0;
     }
 
-    @Override
-    public String toString() {
-        return "Popular{" +
-                "image='" + image + '\'' +
-                ", name='" + name + '\'' +
-                ", nameImage='" + nameImage + '\'' +
-                ", count=" + count +
-                ", type='" + type + '\'' +
-                '}';
-    }
 }

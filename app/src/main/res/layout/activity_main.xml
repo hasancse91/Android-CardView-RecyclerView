@@ -3,13 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="co.megaminds.p1exam.Activity.MainActivity">
+    tools:context="co.megaminds.p1exam.Activity.MainActivity"
+    android:background="@color/background_color">
 
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/horizontal_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/vertical_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     </android.support.v7.widget.RecyclerView>
 

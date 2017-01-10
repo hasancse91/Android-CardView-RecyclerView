@@ -3,7 +3,6 @@ package co.megaminds.p1exam.Model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.os.Parcelable.Creator;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -13,6 +12,9 @@ public class Datum implements Parcelable
     @SerializedName("image")
     @Expose
     private String image;
+    @SerializedName("title")
+    @Expose
+    private String title;
     @SerializedName("name")
     @Expose
     private String name;
@@ -34,6 +36,7 @@ public class Datum implements Parcelable
         public Datum createFromParcel(Parcel in) {
             Datum instance = new Datum();
             instance.image = ((String) in.readValue((String.class.getClassLoader())));
+            instance.title = ((String) in.readValue((String.class.getClassLoader())));
             instance.name = ((String) in.readValue((String.class.getClassLoader())));
             instance.nameImage = ((String) in.readValue((String.class.getClassLoader())));
             instance.count = ((int) in.readValue((int.class.getClassLoader())));
@@ -64,6 +67,24 @@ public class Datum implements Parcelable
      */
     public void setImage(String image) {
         this.image = image;
+    }
+
+    /**
+     * 
+     * @return
+     *     The title
+     */
+    public String getTitle() {
+        return title;
+    }
+
+    /**
+     * 
+     * @param title
+     *     The title
+     */
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     /**
@@ -140,6 +161,7 @@ public class Datum implements Parcelable
 
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeValue(image);
+        dest.writeValue(title);
         dest.writeValue(name);
         dest.writeValue(nameImage);
         dest.writeValue(count);
