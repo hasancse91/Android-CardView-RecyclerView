@@ -8,25 +8,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.2_2b0a324c3dd44f879ce4e896dafa1530aab2a56d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_336680b8205de51a8cec7e1a09d962b182ef03e2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_739a490be5caec1e2d59f45acd36540b236ed8fe.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.2_2b0a324c3dd44f879ce4e896dafa1530aab2a56d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -35,16 +17,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/okio-1.8.0_f870dfa1a8695bc2271f89ad49721be00ef4a9a6.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/okio-1.8.0_f870dfa1a8695bc2271f89ad49721be00ef4a9a6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_a66af1dd17b1ea620878b9956b6084ff627c54ed.jar" />
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_70938e98e11faa77923c5a485bfc19e8159e56db.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,25 +35,25 @@
         optimize="true"
         revision="25.0.0"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_cba07d8f1c61ebf5bc458f28da2e1dd13b6fed02.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_cba07d8f1c61ebf5bc458f28da2e1dd13b6fed02.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_6b5a64647b04061a7113ea9e64f70b4b41e23d98.jar" />
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_fcadb1c3c52b6c814ea2c22ea0e59c22f9da9186.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_cae72d6772e0679db4080d7709e9966518d32bd4.jar" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0e39a7db06c2358eb8c5fdce90f8945684a45eba.jar" />
     </item>
     <item
         is-multidex="false"
@@ -80,97 +62,88 @@
         optimize="true"
         revision="25.0.0"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_29b3fba4e679de52b4fe24e7ff234b9be4625156.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_29b3fba4e679de52b4fe24e7ff234b9be4625156.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_02adef77b26770f4d0ddb95c118e6600c818d952.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_841ddb150bff7f7ac00ddc68f39b625e9b061e5e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_77f9e30edbf7798b8c48f0206af6a33da6dcd6d8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_92241eb3322bf75af250713b533860515f988398.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_e11a46bbb90863eae4ca2fd2bfebb2496f449a11.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_ffff00bd5f026ac466b99dc4d9fcf17466550f1a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_1408b8a98410311a4b47956a10b50f9aaf13944e.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_55796d4f9bbaa4aa6b2efe2ccb0070dbe9ca1dde.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_97b6a2c48c428ac98dadfe7fae06a2491bb68c1d.jar" />
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_0c9d98d82716ce1f4b97ccb0292570e604b0809d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_09674bcf14caafcde47656212d7820dc18c7c9c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_fdb9cdc9df1e50c618192844a9e313ba9fd52066.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_dddf9696c7f8ed5f9458316898b760fd90411fcc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_c3b9206d415e1b31ba9629e12bb554b7cbf5261e.jar" />
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_67c73f2e96ce9a3857ee81abae59c05cdb800dc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_71cf73af47ab09e0dbb1aeb299cb261ed0292dfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_924e51b729b8ad20ab0eeae9fa716911594df6bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_949e111dac049db28a27ffd0dca594df4b6dac0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_f1053499d2f118401497333e6f51928db9644e0c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -179,7 +152,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/gson-2.6.1_2cada84cf049660078c120b6a0fdd57e0adafed0.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/gson-2.6.1_2cada84cf049660078c120b6a0fdd57e0adafed0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -188,7 +161,34 @@
         optimize="true"
         revision="25.0.0"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_63fbb483d1d34ad9db3c87911400402ddcfaa96b.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_63fbb483d1d34ad9db3c87911400402ddcfaa96b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_ac4a29837a3a3b659cb7d80fa38c398ef6caef3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_6bc3b051f5b93cc4dbb611c704fb227bbad1b3f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e0be96404d036cff71f69f1827b8fce46661636b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -197,16 +197,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_9f1c115ea7fd8682dc4922f14b9655ac647b344d.jar" />
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_9f1c115ea7fd8682dc4922f14b9655ac647b344d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/P1Exam/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_62bc01316659c1688708da550e45b59b36aeef71.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Picasso-Practice/App Source Code/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_a688e90585a110f638b097762e819343e22a7924.jar" />
     </item>
 
 </items>

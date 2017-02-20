@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitApiClient {
 
-        private static final String BASE_URL = "https://dl.dropboxusercontent.com/";
+        private static final String BASE_URL = "https://github.com/hasancse91/CardView-RecyclerView-Picasso-Practice/" + "blob/master/App%20Source%20Code/";
 
         private static Retrofit retrofit = null;
  
