@@ -1,6 +1,6 @@
-# CardView-RecyclerView-Picasso-Practice
+# Android-CardView-RecyclerView-Practice
 
-We'll design [this type] (https://raw.githubusercontent.com/hasancse91/CardView-RecyclerView-Picasso-Practice/master/App%20Source%20Code/app_screenshot.png) of sample Android App.
+We'll design this type of sample Android App.
 
 <img src="https://raw.githubusercontent.com/hasancse91/CardView-RecyclerView-Picasso-Practice/master/App%20Source%20Code/app_screenshot.png" width="250" height="444" />
 
