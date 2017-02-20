@@ -30,7 +30,7 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
-    RecyclerView recyclerView;
+    RecyclerView recyclerViewHorizontal;
     RecyclerView recyclerViewVertical;
     HorizontalAdapter horizontalAdapter;
     VerticalAdapter verticalAdapter;
@@ -47,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
 
         relativeLayout = (RelativeLayout) findViewById(R.id.activity_main);
 
-        recyclerView = (RecyclerView) findViewById(R.id.horizontal_recycler_view);
+        recyclerViewHorizontal = (RecyclerView) findViewById(R.id.horizontal_recycler_view);
         recyclerViewVertical = (RecyclerView) findViewById(R.id.vertical_recycler_view);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
+        recyclerViewHorizontal.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
         recyclerViewVertical.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //for spacing after every item
                 if (popularList.size() > 0)
-                    recyclerView.addItemDecoration(new GridSpacingItemDecoration(popularList.size(), spacingInPixels, true, 0));
+                    recyclerViewHorizontal.addItemDecoration(new GridSpacingItemDecoration(popularList.size(), spacingInPixels, true, 0));
 
                 progressBar.setVisibility(View.GONE);
 
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 horizontalAdapter = new HorizontalAdapter(MainActivity.this, popularList);
-                recyclerView.setAdapter(horizontalAdapter);
+                recyclerViewHorizontal.setAdapter(horizontalAdapter);
                 verticalAdapter = new VerticalAdapter(MainActivity.this, dataList);
                 recyclerViewVertical.setAdapter(verticalAdapter);
             }

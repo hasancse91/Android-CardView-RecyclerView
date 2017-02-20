@@ -19,7 +19,7 @@ import co.megaminds.CardViewRecyclerViewPicasso.Model.Datum;
 import co.megaminds.CardViewRecyclerViewPicasso.R;
 
 
-public class VerticalAdapter extends RecyclerView.Adapter<VerticalAdapter.CustomViewHolder> implements View.OnClickListener {
+public class VerticalAdapter extends RecyclerView.Adapter<VerticalAdapter.CustomViewHolder> {
 
     private Context context;
     private List<Datum> dataList;
@@ -34,7 +34,7 @@ public class VerticalAdapter extends RecyclerView.Adapter<VerticalAdapter.Custom
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.data_single_item, null);
         CustomViewHolder viewHolder = new CustomViewHolder(view);
 
-        view.setOnClickListener(this);
+//        view.setOnClickListener(this);
 
         return viewHolder;
     }
@@ -64,10 +64,6 @@ public class VerticalAdapter extends RecyclerView.Adapter<VerticalAdapter.Custom
         return (dataList!=null ? dataList.size() : 0);
     }
 
-    @Override
-    public void onClick(View v) {
-
-    }
 
     class CustomViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         // Your holder should contain a member variable
