@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CardView-RecyclerView-Code.iml" filepath="$PROJECT_DIR$/CardView-RecyclerView-Code.iml" />
       <module fileurl="file:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/CardView-RecyclerView-Code.iml" filepath="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/CardView-RecyclerView-Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/app.iml" filepath="/media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/app.iml" />
     </modules>
   </component>

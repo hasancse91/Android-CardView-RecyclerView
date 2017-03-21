@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="espresso-core-2.2.2">
     <CLASSES>
-      <root url="jar:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.2.2/jars/classes.jar!/" />
-      <root url="file:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.2.2/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/2fb6a30369f4972db539f7b21c959ccd48bdf575/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/2fb6a30369f4972db539f7b21c959ccd48bdf575/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

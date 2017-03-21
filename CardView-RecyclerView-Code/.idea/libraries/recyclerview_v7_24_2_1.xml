@@ -1,11 +1,8 @@
 <component name="libraryTable">
   <library name="recyclerview-v7-24.2.1">
-    <ANNOTATIONS>
-      <root url="jar:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/annotations.zip!/" />
-    </ANNOTATIONS>
     <CLASSES>
-      <root url="jar:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar!/" />
-      <root url="file:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/5a26b764c38e3889f4fcee74402da6a823b5f4e3/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/5a26b764c38e3889f4fcee74402da6a823b5f4e3/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

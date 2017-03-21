@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="support-fragment-24.2.1">
-    <ANNOTATIONS>
-      <root url="jar:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/annotations.zip!/" />
-    </ANNOTATIONS>
     <CLASSES>
-      <root url="jar:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar!/" />
-      <root url="jar:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar!/" />
-      <root url="file:///media/hasan/My Drive/UBUNTU SYSTEM FILES/Android Studio Files/AndroidStudioProjects/CardView-RecyclerView-Practice/CardView-RecyclerView-Code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/1c8bccfa684f6e80cf38014c766825f5bbeaeadf/output/jars/libs/internal_impl-24.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/1c8bccfa684f6e80cf38014c766825f5bbeaeadf/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/1c8bccfa684f6e80cf38014c766825f5bbeaeadf/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
