@@ -32,8 +32,7 @@ public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.Cu
     @Override
     public CustomViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.populer_single_item, null);
-//         CustomViewHolder viewHolder = new CustomViewHolder(view);
-//         return viewHolder;
+
         return new CustomViewHolder(view);
     }
 
