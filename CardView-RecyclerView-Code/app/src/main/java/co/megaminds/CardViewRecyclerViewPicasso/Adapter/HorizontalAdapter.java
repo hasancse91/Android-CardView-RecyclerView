@@ -41,7 +41,7 @@ public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.Cu
 
         Popular popular = popularList.get(position);
 
-        Picasso.with(context)
+        Picasso.get()
                 .load(popular.getImage())
                 .into(holder.popularImage);
 

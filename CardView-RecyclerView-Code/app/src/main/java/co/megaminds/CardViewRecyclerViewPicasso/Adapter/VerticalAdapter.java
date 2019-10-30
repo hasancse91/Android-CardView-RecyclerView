@@ -45,13 +45,13 @@ public class VerticalAdapter extends RecyclerView.Adapter<VerticalAdapter.Custom
 
         Datum datum = dataList.get(position);
 
-        Picasso.with(context)
+        Picasso.get()
                 .load(datum.getImage())
                 .into(holder.fullImage);
 
         holder.nameTextView.setText(datum.getTitle());
 
-        Picasso.with(context)
+        Picasso.get()
                 .load(datum.getNameImage())
                 .transform(new CircleTransform())
                 .into(holder.profileImage);
