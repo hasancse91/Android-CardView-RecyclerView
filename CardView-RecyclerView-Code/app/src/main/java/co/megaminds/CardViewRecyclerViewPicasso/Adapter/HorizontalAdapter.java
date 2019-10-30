@@ -1,7 +1,7 @@
 package co.megaminds.CardViewRecyclerViewPicasso.Adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -76,13 +76,13 @@ public class HorizontalAdapter extends RecyclerView.Adapter<HorizontalAdapter.Cu
             // to access the context from any ViewHolder instance.
             super(itemView);
 
-            popularImage = (ImageView) itemView.findViewById(R.id.popular_image);
-            nameTextView = (TextView) itemView.findViewById(R.id.name);
-            countOne = (TextView) itemView.findViewById(R.id.count1);
-            loremOne = (TextView) itemView.findViewById(R.id.lorem1);
-            countTwo = (TextView) itemView.findViewById(R.id.count2);
-            loremTwo = (TextView) itemView.findViewById(R.id.lorem2);
-            linearLayout = (LinearLayout) itemView.findViewById(R.id.popular_item);
+            popularImage = itemView.findViewById(R.id.popular_image);
+            nameTextView = itemView.findViewById(R.id.name);
+            countOne = itemView.findViewById(R.id.count1);
+            loremOne = itemView.findViewById(R.id.lorem1);
+            countTwo = itemView.findViewById(R.id.count2);
+            loremTwo = itemView.findViewById(R.id.lorem2);
+            linearLayout = itemView.findViewById(R.id.popular_item);
 
             linearLayout.setOnClickListener(this);
         }

@@ -2,9 +2,11 @@ package co.megaminds.CardViewRecyclerViewPicasso.Activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
@@ -45,17 +47,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        relativeLayout = (RelativeLayout) findViewById(R.id.activity_main);
+        relativeLayout = findViewById(R.id.activity_main);
 
-        recyclerViewHorizontal = (RecyclerView) findViewById(R.id.horizontal_recycler_view);
-        recyclerViewVertical = (RecyclerView) findViewById(R.id.vertical_recycler_view);
+        recyclerViewHorizontal = findViewById(R.id.horizontal_recycler_view);
+        recyclerViewVertical = findViewById(R.id.vertical_recycler_view);
         recyclerViewHorizontal.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
         recyclerViewVertical.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
 
-        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        progressBar = findViewById(R.id.progressBar);
 
-        popularList = Collections.<Popular>emptyList();
-        dataList = Collections.<Datum>emptyList();
+        popularList = Collections.emptyList();
+        dataList = Collections.emptyList();
         apiInterface = RetrofitApiClient.getClient().create(ApiInterface.class);
 
         if (NetworkCheckingClass.isNetworkAvailable(this)) {
@@ -73,32 +75,36 @@ public class MainActivity extends AppCompatActivity {
         Call<JsonData> call = apiInterface.apiCall();
         call.enqueue(new Callback<JsonData>() {
             @Override
-            public void onResponse(Call<JsonData> call, Response<JsonData> response) {
-
-                JsonData jsonData = response.body();
-
-                popularList = jsonData.getPopular();
-                dataList = jsonData.getData();
-
-                int spacingInPixels = getResources().getDimensionPixelSize(R.dimen.activity_horizontal_margin);
-
-                //for spacing after every item
-                if (popularList.size() > 0)
-                    recyclerViewHorizontal.addItemDecoration(new GridSpacingItemDecoration(popularList.size(), spacingInPixels, true, 0));
+            public void onResponse(@NonNull Call<JsonData> call, @NonNull Response<JsonData> response) {
 
                 progressBar.setVisibility(View.GONE);
 
-                relativeLayout.setBackgroundColor(Color.parseColor("#3481c1"));
+                JsonData jsonData = response.body();
 
+                if (jsonData != null) {
+                    popularList = jsonData.getPopular();
+                    dataList = jsonData.getData();
 
-                horizontalAdapter = new HorizontalAdapter(MainActivity.this, popularList);
-                recyclerViewHorizontal.setAdapter(horizontalAdapter);
-                verticalAdapter = new VerticalAdapter(MainActivity.this, dataList);
-                recyclerViewVertical.setAdapter(verticalAdapter);
+                    int spacingInPixels = getResources().getDimensionPixelSize(R.dimen.activity_horizontal_margin);
+
+                    //for spacing after every item
+                    if (popularList.size() > 0)
+                        recyclerViewHorizontal.addItemDecoration(new GridSpacingItemDecoration(popularList.size(), spacingInPixels, true, 0));
+
+                    relativeLayout.setBackgroundColor(Color.parseColor("#3481c1"));
+
+                    horizontalAdapter = new HorizontalAdapter(MainActivity.this, popularList);
+                    recyclerViewHorizontal.setAdapter(horizontalAdapter);
+                    verticalAdapter = new VerticalAdapter(MainActivity.this, dataList);
+                    recyclerViewVertical.setAdapter(verticalAdapter);
+                } else {
+                    Toast.makeText(MainActivity.this, "JSON body is null", Toast.LENGTH_SHORT).show();
+                }
+
             }
 
             @Override
-            public void onFailure(Call<JsonData> call, Throwable t) {
+            public void onFailure(@NonNull Call<JsonData> call, @NonNull Throwable t) {
                 progressBar.setVisibility(View.GONE);
                 Toast.makeText(getApplicationContext(), t.toString(), Toast.LENGTH_LONG).show();
             }
